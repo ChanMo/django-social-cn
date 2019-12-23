@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: django-social
+Name: django-social-cn
 Version: 0.1
 Summary: A Django app to integration social accounts
-Home-page: 'https://github.com/ChanMo/django-social'
+Home-page: https://github.com/ChanMo/django-social
 Author: ChanMo
 Author-email: chan.mo@outlook.com
 License: MIT License

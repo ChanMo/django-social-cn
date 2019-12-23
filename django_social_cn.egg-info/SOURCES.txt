@@ -3,10 +3,10 @@ MANIFEST.in
 README.md
 setup.cfg
 setup.py
-django_social.egg-info/PKG-INFO
-django_social.egg-info/SOURCES.txt
-django_social.egg-info/dependency_links.txt
-django_social.egg-info/top_level.txt
+django_social_cn.egg-info/PKG-INFO
+django_social_cn.egg-info/SOURCES.txt
+django_social_cn.egg-info/dependency_links.txt
+django_social_cn.egg-info/top_level.txt
 social/__init__.py
 social/admin.py
 social/apps.py
