@@ -1,3 +1,4 @@
 from django.dispatch import Signal
 
-create_user_done = Signal(providing_args=['user', 'p'])
+# 授权完成
+social_auth_done = Signal(providing_args=['so'])

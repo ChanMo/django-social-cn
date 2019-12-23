@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 15:44+0800\n"
+"POT-Creation-Date: 2019-12-20 17:44+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,33 +18,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: social/apps.py:6 social/models.py:123 social/models.py:124
+#: social/admin.py:23 social/models.py:109
+msgid "avatar"
+msgstr "头像"
+
+#: social/apps.py:7 social/models.py:121 social/models.py:122
 msgid "social"
 msgstr "社交帐号"
 
 #: social/models.py:16
+msgid "wxa"
+msgstr "微信小程序"
+
+#: social/models.py:17
+msgid "wechat web"
+msgstr "微信公众平台"
+
+#: social/models.py:18
+msgid "wechat open"
+msgstr "微信开放平台"
+
+#: social/models.py:19
+msgid "qq open"
+msgstr "QQ开放平台"
+
+#: social/models.py:20
+msgid "douyin"
+msgstr "抖音"
+
+#: social/models.py:22
 msgid "name"
 msgstr ""
 
-#: social/models.py:17
-msgid "code"
-msgstr ""
-
-#: social/models.py:18
-msgid "url"
-msgstr ""
-
-#: social/models.py:28 social/models.py:29 social/models.py:109
+#: social/models.py:95 social/models.py:96 social/models.py:105
 msgid "provider"
 msgstr "平台"
 
-#: social/models.py:107
+#: social/models.py:103
 msgid "user"
 msgstr ""
 
-#: social/models.py:110
+#: social/models.py:106
 msgid "uid"
 msgstr ""
+
+#: social/models.py:107
+msgid "nickname"
+msgstr "昵称"
 
 #: social/models.py:111
 msgid "extra date"
@@ -57,3 +77,6 @@ msgstr ""
 #: social/models.py:113
 msgid "updated"
 msgstr ""
+
+#~ msgid "doyin"
+#~ msgstr "抖音小程序"
