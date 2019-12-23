@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-social
+Version: 0.1
+Summary: A Django app to integration social accounts
+Home-page: 'https://github.com/ChanMo/django-social'
+Author: ChanMo
+Author-email: chan.mo@outlook.com
+License: MIT License
+Description: # Django Social APP
+        
+        [*] 微信APP
+        [*] 微信小程序
+        [*] 微信服务号
+        [*] 抖音小程序
+        [*] QQ开放平台
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
