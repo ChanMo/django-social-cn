@@ -9,13 +9,13 @@ django_social_cn.egg-info/dependency_links.txt
 django_social_cn.egg-info/top_level.txt
 social/__init__.py
 social/admin.py
+social/apis.py
 social/apps.py
 social/models.py
 social/receivers.py
 social/serializers.py
 social/signals.py
 social/tests.py
-social/urls.py
 social/views.py
 social/locale/zh_Hans/LC_MESSAGES/django.mo
 social/locale/zh_Hans/LC_MESSAGES/django.po

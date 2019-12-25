@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: django-social-cn
-Version: 0.1
+Version: 0.1.1
 Summary: A Django app to integration social accounts
 Home-page: https://github.com/ChanMo/django-social
 Author: ChanMo
@@ -8,11 +8,74 @@ Author-email: chan.mo@outlook.com
 License: MIT License
 Description: # Django Social APP
         
-        [*] 微信APP
-        [*] 微信小程序
-        [*] 微信服务号
-        [*] 抖音小程序
-        [*] QQ开放平台
+        基于django的社交帐号APP
+        
+        包含微信APP, 微信小程序, 微信公众号, 抖音小程序, QQ开放平台等
+        
+        
+        ## Quick start
+        
+        1. 更新`settings.py`
+        
+        ```python
+        INSTALLED_APPS = [
+            ...
+            'social',
+        ]
+        ```
+        
+        2. 执行`python manage.py migrate`
+        
+        ## Web使用
+        
+        ### AuthView
+        
+        `from social.views.AuthView`
+        
+        方式一, 直接使用
+        修改`urls.py`
+        ```python
+        from social.views import AuthView
+        
+        urlpatterns = [
+            ...
+            path('social/<slug:provider>/', AuthView.as_view()),
+        ]
+        ```
+        
+        方式二, 继承
+        修改`views.py`
+        
+        ```python
+        from social.views import AuthView as BaseAuthView
+        
+        class AuthView(BaseAuthView):
+            success_url = '/success/'
+        ```
+        
+        ## API使用
+        
+        API使用[django-rest-framework](https://www.django-rest-framework.org/)框架, Token使用[django-rest-framework-simplejwt](https://github.com/davesque/django-rest-framework-simplejwt)
+        
+        安装依赖
+        
+        ```bash
+        $ pip install djangorestfamework
+        $ pip install django-rest-famework-simplejwt
+        
+        ```
+        
+        直接使用
+        
+        ```
+        from social.apis import AuthView, SocialUpdateView
+        
+        urlpatterns = [
+            ...
+            path('social/auth/<slug:provider>/', AuthView.as_view()),
+            path('social/update/', SocialUpdateView.as_view()),
+        ]
+        ```
         
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
