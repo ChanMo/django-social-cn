@@ -19,10 +19,9 @@ INSTALLED_APPS = [
 2. 执行`python manage.py migrate`
 
 ## Web使用
+用于微信web开放平台, 微信公众号, QQ开放平台
 
 ### AuthView
-
-`from social.views.AuthView`
 
 方式一, 直接使用
 修改`urls.py`
@@ -46,6 +45,7 @@ class AuthView(BaseAuthView):
 ```
 
 ## API使用
+用于微信APP, 微信小程序, 抖音小程序
 
 API使用[django-rest-framework](https://www.django-rest-framework.org/)框架, Token使用[django-rest-framework-simplejwt](https://github.com/davesque/django-rest-framework-simplejwt)
 
